@@ -1,0 +1,454 @@
+Label,V2_CVSS,VULNERABILITY,STRUCT,CWE,IMPACT,VENDER,DRIVER,SOURCECODE,SOFTWARE,FUNCTION,Id
+CVE-2017-1000503,6.8,execcode,race condition,CWE-362,6.4,jenkins,,,,,0
+CVE-2017-11418,7.5,sql,,CWE-89,6.4,,dapur/apps/app_article/controller/,article_list.php,fiyo cms,,1
+CVE-2017-10887,9.3,priv,untrusted search path,CWE-426,10.0,,,,book walker,,2
+CVE-2017-9434,5.0,unknown,,CWE-125,2.9,,,zinflate.c,crypto,,3
+CVE-2017-17575,7.5,sql,,CWE-89,6.4,,,item_details.php,fs groupon clone,,4
+CVE-2017-1369,3.5,xss,,CWE-79,2.9,ibm,,,relm,,5
+CVE-2017-0709,4.3,info,,CWE-200,2.9,htc,,,android,,6
+CVE-2017-15020,6.8,dos,libbfd,CWE-119,6.4,gnu,,dwarf1.c,binutils,,7
+CVE-2017-3585,5.0,unknown,,CWE-284,2.9,sun,,,zfs storage appliance kit,,8
+CVE-2017-18242,4.3,dos,crafted aac file,CWE-125,2.9,,libavcodec/,aacdec.c,libav,apply_dependent_coupling,9
+CVE-2017-1459,4.9,unknown,,CWE-284,4.9,ibm,,,security access manager appliance,,10
+CVE-2017-15568,4.3,xss,,CWE-79,2.9,,app/helpers/,,application_helper.rb ,,11
+CVE-2017-2098,4.0,dir.trav.,,CWE-22,2.9,,,,cubecart,,12
+CVE-2017-7030,6.8,dos execcode overflow,webkit,CWE-119,6.4,apple,,,ios,,13
+CVE-2017-13210,7.2,execcode,,CWE-787,10.0,,,cameradeviceclient.cpp,android,submitrequestlist,14
+CVE-2017-16667,9.3,execcode,,CWE-78,10.0,,qt4/plugins/,notifyplugin.py,backintime,,15
+CVE-2017-2252,9.3,priv,untrusted search path ,CWE-426,10.0,,,,file compact,,16
+CVE-2017-15276,6.5,priv dir.trav.,symlinks,CWE-22,6.4,emc,,,opentext documentum content server,,17
+CVE-2017-7878,7.5,sql,,CWE-89,6.4,flatcore,,,flatcore,,18
+CVE-2017-14116,9.3,unknown,,CWE-798,10.0,at&t,,,arris nvg599 device,,19
+CVE-2017-15892,3.5,xss,slash command creator,CWE-79,2.9,,,,synology chat,,20
+CVE-2017-0291,9.3,execcode,,CWE-284,10.0,,,,windows 8.1,,21
+CVE-2017-3870,5.0,overflow bypass,,CWE-119,2.9,cisco,,,asyncos software,,22
+CVE-2017-1000485,2.1,info,,CWE-275,2.9,,,,nylas mail lives,,23
+CVE-2017-11546,4.3,dos,,CWE-369,2.9,,,readmidi.c,timidity,insert_note_steps,24
+CVE-2017-5850,7.8,dos,http range header,CWE-399,6.9,openbsd,,,httpd,,25
+CVE-2017-2459,6.8,dos execcode overflow,webkit,CWE-119,6.4,apple,,,ios,,26
+CVE-2017-1000357,5.0,dos,,CWE-399,2.9,opendaylight,,,odl-l2switch-switch,,27
+CVE-2017-17904,3.5,xss,,CWE-79,2.9,,user/edit_profile,,fs lynda clone,,28
+CVE-2017-6689,6.5,unknown,confd cli,CWE-255,6.4,cisco,,,elastic services controllers,,29
+CVE-2017-9979,4.3,xss,,CWE-79,2.9,osnexus,,,quantastor v4 virtual appliance,,30
+CVE-2017-0107,4.3,xss,,CWE-79,2.9,microsoft,,,sharepoint server,,31
+CVE-2017-2576,5.0,unknown,,CWE-20,2.9,moodle,,,,,32
+CVE-2017-17151,4.3,unknown,,CWE-20,2.9,huawei,,,ar100,,33
+CVE-2017-11096,6.8,unknown,,CWE-476,6.4,swftools,lib/modules/,swffilter.c,swfcombine,swf_deletefilter,34
+CVE-2017-8929,5.0,dos,,CWE-416,2.9,,libyara/,sizedstr.c,yara,sized_string_cmp,35
+CVE-2017-6724,4.3,xss,,CWE-79,2.9,cisco,,,prime infrastructure,,36
+CVE-2017-9822,6.5,execcode,,CWE-20,6.4,,,,dotnetnuke,,37
+CVE-2017-14438,5.0,dos,,CWE-20,2.9,moxa,,,edr-810,,38
+CVE-2017-6136,4.3,unknown,traffic management microkernel,CWE-20,2.9,f5,,,afm,,39
+CVE-2017-9729,5.0,unknown,stack exhaustion,CWE-399,2.9,,misc/regex/,regexec.c,uclibc,check_dst_limits_calc_pos_1,40
+CVE-2017-11171,4.9,unknown,bad reference counting,CWE-769,6.9,,,gsm-xsmp-server.c,gnome-session,accept_ice_connection,41
+CVE-2017-9348,5.0,overflow,dof dissector,CWE-119,2.9,wireshark,epan/dissectors/,packet-dof.c,wireshark,,42
+CVE-2017-0755,9.3,unknown,libminikin,CWE-264,10.0,,,,android,,43
+CVE-2017-14077,4.3,unknown,,CWE-94,2.9,,,example_form.php,securimage,,44
+CVE-2017-7885,5.8,dos overflow,,CWE-190,4.9,artifex,,jbig2_symbol_dict.c,jbig2dec,jbig2_decode_symbol_dict,45
+CVE-2017-16615,7.5,execcode,,CWE-77,6.4,,,parser.py,mlalchemy,parse_yaml_query,46
+CVE-2017-8587,4.3,dos,,CWE-284,2.9,,,,windows 8.1,,47
+CVE-2017-13674,7.2,execcode,,CWE-264,10.0,symantec,,,proxyclient,,48
+CVE-2017-0222,7.6,execcode overflow mem.corr.,,CWE-119,10.0,,,,internet explorer,,49
+CVE-2017-6565,6.5,unknown,,CWE-284,6.4,franklin fueling systems,,,ts-550 evo,,50
+CVE-2017-15833,4.6,info,untrusted pointer dereference,CWE-200,6.4,,,,linux kernel,update_userspace_power,51
+CVE-2017-8979,6.8,dos execcode bypass,,CWE-264,6.4,hpe,,,integrated lights-out,,52
+CVE-2017-11763,6.8,execcode,graphics component,CWE-264,6.4,microsoft,,,windows 8.1,,53
+CVE-2017-11404,4.0,unknown,,CWE-264,2.9,,admin/,moduleinterface.php,cms made simple,,54
+CVE-2017-15268,5.0,unknown,,CWE-399,2.9,qemu,io/,channel-websock.c,qemu,,55
+CVE-2017-8469,2.1,info,,CWE-200,2.9,microsoft,,,windows 8.1,,56
+CVE-2017-5528,6.8,xss csrf,,CWE-352,6.4,jasperreports,,,tibco jasperreports server community edition,,57
+CVE-2017-13856,6.8,dos execcode overflow,webkit,CWE-119,6.4,apple,,,ios,,58
+CVE-2017-5911,4.3,info,crafted certificate,CWE-295,2.9,,,,banco santander mexico sa supermovil,,59
+CVE-2017-6714,10.0,execcode,autoit service,CWE-78,10.0,cisco,,,ultra services framework staging server,,60
+CVE-2017-11010,10.0,unknown,,CWE-284,10.0,qualcomm,,,sd 650/52,,61
+CVE-2017-2802,6.8,unknown,,CWE-426,6.4,dell,,poaservice.exe,precision optimizer,,62
+CVE-2017-0154,5.8,unknown,,CWE-74,4.9,microsoft,,,internet explorer,,63
+CVE-2017-12501,9.0,execcode,,CWE-20,10.0,hpe,,,imc,,64
+CVE-2017-8785,6.8,overflow,,CWE-119,6.4,faststone,,fsviewer.exe,image viewer,,65
+CVE-2017-14525,5.8,unknown,,CWE-601,4.9,opentext,xda/component/virtuallinkconnect,default.htm,documentum webtop,,66
+CVE-2017-17110,7.5,sql,,CWE-89,6.4,,,single.php,techno portfolio management panel,,67
+CVE-2017-5535,4.3,unknown,encryption mechanisms,CWE-326,4.9,tibco,,,gridserver broker,,68
+CVE-2017-11797,7.6,execcode info,,CWE-200,10.0,,,,chakracore,,69
+CVE-2017-1258,6.4,unknown,,CWE-287,4.9,ibm,,,security guardium,,70
+CVE-2017-0579,7.6,execcode,,CWE-264,10.0,qualcomm,,,android,,71
+CVE-2017-18053,5.0,unknown,,CWE-125,2.9,,,,linux kernel,wma_p2p_lo_event_handler,72
+CVE-2017-6547,4.3,xss,arbitrary javascript,CWE-79,2.9,asus,,,rt-n12vp b1,,73
+CVE-2017-8504,4.3,info,,CWE-200,2.9,microsoft,,,windows 10,,74
+CVE-2017-14836,6.8,execcode,,CWE-416,6.4,foxit,,,reader,,75
+CVE-2017-1000374,7.5,execcode bypass,stack guard page,CWE-284,6.4,,,,netbsd,,76
+CVE-2017-3186,10.0,unknown,default admin credentials,CWE-798,10.0,acti,,,cameras,,77
+CVE-2017-9060,4.9,dos,,CWE-399,6.9,qemu,hw/display/,virtio-gpu.c,,virtio_gpu_cmd_set_scanout,78
+CVE-2017-2422,9.3,dos execcode overflow,multi-touch,CWE-119,10.0,apple,,,,,79
+CVE-2017-10258,5.8,unknown,,CWE-284,4.9,oracle,,,peoplesoft enterprise prtl interaction hub,,80
+CVE-2017-15262,6.8,dos execcode overflow,,CWE-119,6.4,irfanview,,,irfanview,,81
+CVE-2017-10401,4.3,unknown,,CWE-284,6.4,oracle,,,hospitality cruise materials management,,82
+CVE-2017-1000471,7.5,dos mem.corr.,cgi handler,CWE-476,6.4,embedthis,,,goahead webserver,,83
+CVE-2017-0089,9.3,execcode overflow,crafted web site,CWE-119,10.0,microsoft,,,windows 7,,84
+CVE-2017-9901,6.8,execcode overflow,,CWE-119,6.4,xnview,,,xnview classic,,85
+CVE-2017-1000056,7.5,unknown,,CWE-264,6.4,,,,kubernetes,,86
+CVE-2017-7514,,xss,,,,red hat,,,satellite,,87
+CVE-2017-0415,9.3,execcode priv,,CWE-264,10.0,,,,mediaserver,,88
+CVE-2017-16924,5.0,bypass,,CWE-200,2.9,manageengine,/client-data/<client_id>/collections/##/,usermgmt.xml,desktop central msp,,89
+CVE-2017-0749,6.8,unknown,,CWE-264,6.4,,,,linux kernel,,90
+CVE-2017-15826,4.4,unknown,,CWE-415,6.4,,,,android,,91
+CVE-2017-8474,1.9,info,,CWE-200,2.9,microsoft,,,windows 8.1,,92
+CVE-2017-13088,2.9,unknown,,CWE-254,2.9,,,,wi-fi protected access,,93
+CVE-2017-0356,7.5,bypass,,CWE-287,6.4,,,,repeated parameters,,94
+CVE-2017-16396,9.3,execcode overflow,tiff processing module,CWE-119,10.0,adobe,,,reader,,95
+CVE-2017-2451,9.3,dos execcode overflow,,CWE-119,10.0,apple,,,macos,,96
+CVE-2017-5077,6.8,unknown,crafted html page,CWE-125,6.4,google,,,android,,97
+CVE-2017-12719,5.0,execcode,,CWE-476,2.9,advantech,,,webaccess,,98
+CVE-2017-15710,5.0,dos,,CWE-787,2.9,apache,,,httpd,,99
+CVE-2017-2437,7.2,dos overflow priv,"""iofirewireavc"" component",CWE-119,10.0,apple,,,macos,,100
+CVE-2017-17058,5.0,dir.trav.,,CWE-22,2.9,wordpress,content/plugins/woocommerce/templates/emails/plain,,woocommerce plugin,,101
+CVE-2017-1000212,7.5,execcode,,CWE-264,6.4,,,,alchemist.vim,,102
+CVE-2017-16581,6.8,execcode,,CWE-416,6.4,foxit,,,reader,,103
+CVE-2017-7732,4.3,xss,crafted http requests,CWE-79,2.9,fortinet,,,fortimail,,104
+CVE-2017-10382,4.3,unknown,,CWE-284,2.9,oracle,,,peoplesoft,,105
+CVE-2017-7943,4.3,unknown,,CWE-399,2.9,imagemagick,,svg.c,imagemagick,readsvgimage,106
+CVE-2017-18142,10.0,overflow,,CWE-119,10.0,qualcomm,,,sd 835,,107
+CVE-2017-14170,7.1,unknown,crafted mxf file,CWE-399,6.9,ffmpeg,libavformat/,mxfdec.c,,mxf_read_index_entry_array,108
+CVE-2017-12673,4.3,dos,,CWE-119,2.9,imagemagick,coders/,png.c,imagemagick,,109
+CVE-2017-2400,5.0,info,"""safariviewcontroller"" component",CWE-200,2.9,apple,,,safari,,110
+CVE-2017-16875,5.0,overflow,ioqueue component,CWE-320,2.9,teluu,,,pjlib,,111
+CVE-2017-12217,5.0,dos,general packet radio service,CWE-20,2.9,cisco,,,asr 5500,,112
+CVE-2017-1000211,5.0,unknown,,CWE-416,2.9,lynx,,,lynx,html_put_string,113
+CVE-2017-13672,2.1,dos,,CWE-125,2.9,qemu,,,qemu,,114
+CVE-2017-8953,3.5,xss,,CWE-79,2.9,hpe,,,loadrunner,,115
+CVE-2017-3570,6.5,unknown,,CWE-284,6.4,oracle,,,peoplesoft,,116
+CVE-2017-15733,6.8,csrf,,CWE-352,6.4,,admin/,ajax.attachment.php,phpmyfaq,,117
+CVE-2017-8398,5.0,overflow,,CWE-119,2.9,gnu,,dwarf.c,binutils,,118
+CVE-2017-2317,7.5,dos info,,CWE-264,6.4,juniper,,,networks northstar controller application,,119
+CVE-2017-8101,6.8,csrf,,CWE-352,6.4,serendipity,,,serendipity,,120
+CVE-2017-8934,2.1,dos,,CWE-20,2.9,,/tmp,,pcmanfm,,121
+CVE-2017-8607,7.6,execcode overflow mem.corr.,,CWE-119,10.0,microsoft,,,windows 8.1,,122
+CVE-2017-8472,1.9,info,,CWE-200,2.9,microsoft,,,windows server 2012,,123
+CVE-2017-16551,4.4,priv,,CWE-264,6.4,,,,k7 antivirus premium,,124
+CVE-2017-6205,7.5,bypass,unspecified vectors,CWE-264,6.4,d-link,,,dgs-1510-20,,125
+CVE-2017-17657,7.5,execcode sql,,CWE-89,6.4,quest,,,netvault backup,nvbubackup timerange,126
+CVE-2017-1791,3.5,xss,,CWE-79,2.9,ibm,,,rational quality manager,,127
+CVE-2017-17328,7.1,overflow,,CWE-190,6.9,huawei,,,mha-al00ac00b125,,128
+CVE-2017-10616,6.4,unknown,ifmap service,CWE-798,4.9,juniper,,,networks contrail releases,,129
+CVE-2017-6656,4.3,dos,,CWE-20,2.9,cisco,,,ip phone 8800 series,,130
+CVE-2017-12718,6.8,execcode overflow,,CWE-119,6.4,smiths medical,,,medfusion 4000 wireless syringe infusion pump,,131
+CVE-2017-1249,3.5,xss,,CWE-79,2.9,ibm,,,rhapsody dm,,132
+CVE-2017-2671,4.9,dos,ipproto_icmp,CWE-284,6.9,,net/ipv4/,ping.c,linux kernel,ping_unhash,133
+CVE-2017-10031,6.4,unknown,communications convergence component,CWE-284,4.9,oracle,,,,,134
+CVE-2017-0773,7.1,dos,,CWE-284,6.9,,,,media framework,,135
+CVE-2017-0469,9.3,execcode overflow mem.corr.,,CWE-119,10.0,,,,mediaserver,,136
+CVE-2017-0078,7.2,priv,kernel-mode drivers,CWE-264,10.0,microsoft,,,windows 8.1,,137
+CVE-2017-7770,4.3,unknown,,CWE-20,2.9,,,,android,,138
+CVE-2017-5884,6.8,execcode,,CWE-118,6.4,,,,gtk-vnc,,139
+CVE-2017-1793,3.5,xss,,CWE-79,2.9,ibm,,,rational quality manager,,140
+CVE-2017-7325,5.0,unknown,,CWE-20,2.9,yandex,,,yandex browser,,141
+CVE-2017-5235,6.8,unknown,,CWE-426,6.4,rapid7,,,metasploit pro,,142
+CVE-2017-14090,6.4,unknown,,CWE-326,4.9,trend micro,,,scanmail for exchange,,143
+CVE-2017-7110,10.0,dos execcode overflow,crafted wi-fi traffic,CWE-119,10.0,apple,,,ios,,144
+CVE-2017-8680,2.1,info,,CWE-200,2.9,microsoft,,,windows 8.1,,145
+CVE-2017-8904,6.8,execcode,,CWE-264,10.0,xen,,,xen,gnttabop_transfer,146
+CVE-2017-9557,5.0,info,,CWE-200,2.9,efs software,,register.ghp,easy chat server,,147
+CVE-2017-1329,3.5,execcode,,CWE-94,2.9,ibm,,,rqm,,148
+CVE-2017-8749,7.6,execcode overflow mem.corr.,,CWE-119,10.0,microsoft,,,windows 8.1,,149
+CVE-2017-10394,5.5,dos,,CWE-284,4.9,oracle,,,peoplesoft,,150
+CVE-2017-18192,5.0,info,,CWE-200,2.9,,smart/calculator/gallerylock/,calculatoractivity.java,"photo,video locker-calculator",,151
+CVE-2017-13715,10.0,dos execcode,crafted mpls packet,CWE-20,10.0,,net/core/,flow_dissector.c,linux kernel,__skb_flow_dissect,152
+CVE-2017-12907,4.3,xss,,CWE-79,2.9,,,usersearch.php,nexusphp,,153
+CVE-2017-2435,6.8,dos execcode overflow,crafted font file,CWE-119,6.4,apple,,,macos,,154
+CVE-2017-8757,7.6,execcode overflow,,CWE-119,10.0,microsoft,,,windows 10,,155
+CVE-2017-5801,5.0,info,,CWE-200,2.9,hpe,,,process monitor,,156
+CVE-2017-8013,7.5,priv,emc.dpa.metrics.logon,CWE-798,6.4,emc,,,data protection advisor,,157
+CVE-2017-13696,10.0,overflow priv,,CWE-119,10.0,dup scout,,,disk savvy enterprise,,158
+CVE-2017-1000482,3.5,xss,,CWE-79,2.9,,,,plone,,159
+CVE-2017-2302,7.8,dos,,CWE-19,6.9,juniper,,,junos,,160
+CVE-2017-6531,5.0,unknown,,CWE-255,2.9,televes,backup/restore,loadcfgfile,coaxdata gateway 1gbps devices,,161
+CVE-2017-12904,9.3,execcode,,CWE-943,10.0,,,,newsbeuter,,162
+CVE-2017-2690,4.9,dos,,CWE-399,6.9,softco,,,espace u1930,,163
+CVE-2017-6050,7.5,execcode sql,sql queries,CWE-89,6.4,ecava,,,integraxor,,164
+CVE-2017-0413,4.3,bypass info,,CWE-200,2.9,,,,android,,165
+CVE-2017-15729,6.8,csrf,,CWE-352,6.4,phpmyfaq,,,phpmyfaq,,166
+CVE-2017-9982,5.0,dos,,CWE-20,2.9,teamspeak,,,teamspeak,,167
+CVE-2017-15312,3.5,xss,,CWE-79,2.9,huawei,,,smartcare v200r003c10,,168
+CVE-2017-0823,5.0,info,,CWE-200,2.9,,,,android,,169
+CVE-2017-8141,9.3,execcode,,CWE-415,10.0,,,,p10 plus smart phones,,170
+CVE-2017-15743,6.8,dos overflow,crafted .dwg file,CWE-119,6.4,irfanview,,,irfanview,,171
+CVE-2017-8301,2.6,unknown,,CWE-254,2.9,,,,libressl,ssl_get_verify_result,172
+CVE-2017-15379,7.5,sql bypass,,CWE-264,6.4,e-sic,/index,,e-sic,,173
+CVE-2017-1000189,5.0,unknown,,CWE-20,2.9,,,,nodejs ejs,ejs.renderfile,174
+CVE-2017-7616,2.1,info,set_mempolicy,CWE-388,2.9,,mm/,mempolicy.c,linux kernel,,175
+CVE-2017-11003,4.6,unknown,,CWE-264,6.4,,,,linux kernel,,176
+CVE-2017-11267,9.3,execcode overflow mem.corr.,,CWE-119,10.0,adobe,,,reader,,177
+CVE-2017-7634,4.3,xss,crafted link,CWE-79,2.9,qnap,,,nas application media streaming add-on,,178
+CVE-2017-10685,7.5,execcode,,CWE-20,6.4,,,,ncurses,fmt_entry,179
+CVE-2017-14535,9.0,unknown,,CWE-78,10.0,,/maint/modules/home/,index.php,trixbox,,180
+CVE-2017-17106,10.0,unknown,,CWE-255,10.0,zivif,/cgi-bin/hi3510/,,pr115-204-p-rs,,181
+CVE-2017-13806,4.3,unknown,,CWE-254,2.9,apple,,,ios,,182
+CVE-2017-1000405,6.9,unknown,,CWE-362,10.0,,,,linux kernel,pmd_mkdirty,183
+CVE-2017-2352,2.1,bypass,unspecified vectors,CWE-254,2.9,apple,,,ios,,184
+CVE-2017-1000479,6.8,execcode csrf,,CWE-352,6.4,,,,pfsense,,185
+CVE-2017-1000163,5.8,unknown,,CWE-601,4.9,,,,phoenix framework,,186
+CVE-2017-14000,7.5,unknown,,CWE-287,6.4,ctek,,,skyrouter,,187
+CVE-2017-14130,4.3,dos,crafted elf file,CWE-119,2.9,gnu,,elf-attrs.c,binutils,_bfd_elf_parse_attributes,188
+CVE-2017-5542,4.3,xss,,CWE-79,2.9,,template/,usererror.missing_extension.php,symphony cms,,189
+CVE-2017-11655,5.0,unknown,,CWE-119,2.9,,,,sipcrack,,190
+CVE-2017-4943,7.2,priv,'showlog' plugin,CWE-264,10.0,vmware,,,vcsa,,191
+CVE-2017-14452,,overflow,,,,pubnub,,,message handler,,192
+CVE-2017-1000171,5.0,unknown,,CWE-532,2.9,,,,mahara mobile,,193
+CVE-2017-3823,9.3,execcode overflow,,CWE-119,10.0,mozilla,,,webex,,194
+CVE-2017-9328,10.0,execcode,,CWE-77,10.0,,/usr/www/include/ajax/,gettest.php,shell,,195
+CVE-2017-14467,7.5,unknown,,CWE-284,6.4,allen bradley,,,micrologix 1400 series,,196
+CVE-2017-0455,9.3,execcode bypass info,bootloader,CWE-200,10.0,qualcomm,,,android,,197
+CVE-2017-7010,6.8,dos info,"""libxml2"" component",CWE-125,6.4,apple,,,macos,,198
+CVE-2017-0781,8.3,execcode overflow,,CWE-284,10.0,,,,android,,199
+CVE-2017-14141,6.5,execcode,crafted serialized object,CWE-94,6.4,kaltura,,,kaltura,,200
+CVE-2017-3378,5.8,unknown,advanced outbound telephony component,CWE-284,4.9,oracle,,,e-business suite,,201
+CVE-2017-2311,5.0,dos,,CWE-254,2.9,juniper,,,junos space,,202
+CVE-2017-8724,4.3,unknown,,CWE-284,2.9,microsoft,,,windows 10,,203
+CVE-2017-11133,5.0,unknown,,CWE-327,2.9,heinekingmedia,,,stashcat,cryptojs.lib.wordarray.random,204
+CVE-2017-10858,9.3,priv,trojan horse dll,CWE-426,10.0,,,,i-filter,,205
+CVE-2017-0246,6.9,dos priv,kernel-mode drivers,CWE-264,10.0,,,,windows 8.1,,206
+CVE-2017-14353,6.8,execcode,,CWE-94,6.4,hp,,,ucmdb foundation software,,207
+CVE-2017-4937,6.9,dos execcode,jpeg2000 parser,CWE-125,10.0,vmware,,tpview.dll,vmware workstation,,208
+CVE-2017-14316,7.2,unknown,,CWE-125,10.0,xen,,,xen,alloc_heap_pages,209
+CVE-2017-6733,4.3,xss,,CWE-79,2.9,cisco,,,ise,,210
+CVE-2017-8221,5.0,info,,CWE-200,2.9,,,,android,,211
+CVE-2017-12728,7.2,execcode,,CWE-264,10.0,spidercontrol,,,scada web server,,212
+CVE-2017-1000419,5.0,unknown,,CWE-918,2.9,phpbb,,,phpbb,,213
+CVE-2017-13165,4.6,unknown,,CWE-264,6.4,,,,android,,214
+CVE-2017-16833,4.3,xss,,CWE-79,2.9,,,.gemspec,gemirro,,215
+CVE-2017-9717,5.0,unknown,,CWE-119,2.9,,,,android,,216
+CVE-2017-0128,4.3,info,crafted web site,CWE-200,2.9,microsoft,,,windows 7,,217
+CVE-2017-3014,9.3,execcode,,CWE-416,10.0,adobe,,,reader,,218
+CVE-2017-0081,7.2,priv,kernel-mode drivers,CWE-264,10.0,microsoft,,,windows 8.1,,219
+CVE-2017-3453,4.0,unknown,,CWE-284,2.9,oracle,,,mysql,,220
+CVE-2017-1000002,7.5,execcode dir.trav. bypass,course icon component,CWE-22,6.4,,,,atutor,,221
+CVE-2017-13290,2.1,unknown,,CWE-125,2.9,,,sdp_server.c,android,sdp_server_handle_client_req,222
+CVE-2017-10054,3.6,unknown,hospitality cruise materials management component,CWE-284,4.9,oracle,,,hospitality applications,,223
+CVE-2017-1442,6.8,csrf,,CWE-352,6.4,ibm,,,emptoris services procurement,,224
+CVE-2017-17718,4.3,unknown,,CWE-295,2.9,,,,net::ldap,,225
+CVE-2017-17935,5.0,dos,crafted packet,CWE-119,2.9,wireshark,epan/wslua/,wslua_file.c,wireshark,file_read_line,226
+CVE-2017-9069,6.5,execcode,,CWE-434,6.4,modx,,,modx revolution,,227
+CVE-2017-6682,6.5,unknown,,CWE-78,6.4,cisco,,,elastic services controllers,,228
+CVE-2017-7112,10.0,dos execcode overflow,crafted wi-fi traffic,CWE-119,10.0,apple,,,ios,,229
+CVE-2017-16074,5.0,info,,CWE-200,2.9,,,,crossenv,,230
+CVE-2017-0663,6.8,execcode,,CWE-284,6.4,,,,android,,231
+CVE-2017-5842,4.3,dos,crafted smi file,CWE-787,2.9,,gst/subparse/,samiparse.c,gstreamer,html_context_handle_element,232
+CVE-2017-1000105,5.0,unknown,,CWE-275,2.9,,run/artifacts,,blue ocean,,233
+CVE-2017-6747,7.5,bypass,,CWE-287,6.4,cisco,,,ise,,234
+CVE-2017-17114,7.2,overflow mem.corr.,,CWE-119,10.0,,,ntguard.sys,ikarus anti.virus,,235
+CVE-2017-9668,4.3,xss,,CWE-79,2.9,,,cms made simple,,,236
+CVE-2017-3418,5.8,unknown,crm technical foundation component,CWE-284,4.9,oracle,,,e-business suite,,237
+CVE-2017-14927,4.3,unknown,crafted pdf document,CWE-476,2.9,,,splashoutputdev.cc,poppler,splashoutputdev::type3d0,238
+CVE-2017-9336,4.3,xss,,CWE-79,2.9,wordpress,,,wp editor.md plugin,,239
+CVE-2017-1000247,5.0,unknown,,CWE-20,2.9,apache,,,codeigniter,set_status_header,240
+CVE-2017-7248,4.3,execcode xss,,CWE-79,2.9,,gazelle-master/sections/better/,transcode.php,gazelle,,241
+CVE-2017-16166,5.0,dir.trav.,,CWE-22,2.9,,,,byucslabsix,,242
+CVE-2017-9706,4.6,overflow,,CWE-119,6.4,,,,linux kernel,,243
+CVE-2017-14341,7.1,unknown,crafted wpg image file,CWE-400,6.9,imagemagick,coders/,wpg.c,imagemagick,,244
+CVE-2017-9142,4.3,unknown,,CWE-20,2.9,imagemagick,magickcore/,blob.c,imagemagick,,245
+CVE-2017-7659,5.0,unknown,,CWE-476,2.9,,,,http/2,,246
+CVE-2017-9205,4.3,dos,libimageworsener.a,CWE-125,2.9,,,imagew-jpeg.c,imageworsener,iw_get_ui16be,247
+CVE-2017-9126,4.3,dos overflow,crafted mp4 file,CWE-119,2.9,,,dref.c,libquicktime,quicktime_read_dref_table,248
+CVE-2017-8338,7.8,unknown,flood of udp packets,CWE-399,6.9,mikrotik,,,mikrotik,,249
+CVE-2017-4028,2.1,unknown,,CWE-74,2.9,mcafee,,,windows products,,250
+CVE-2017-7796,3.3,unknown,,CWE-20,4.9,,,update.log,firefox,,251
+CVE-2017-5695,2.1,dos,unspecified vectors,CWE-20,2.9,intel,,,lsf031e,,252
+CVE-2017-2513,7.5,dos execcode,crafted sql statement,CWE-416,6.4,apple,,,ios,,253
+CVE-2017-9083,4.3,unknown,,CWE-476,2.9,,,jpxstream.cc,poppler,jpxstream::readubyte,254
+CVE-2017-10264,5.0,dos,,NVD-CWE-noinfo,2.9,oracle,,,siebel crm,,255
+CVE-2017-16921,9.0,execcode,,CWE-77,10.0,otrs,,,otrs,,256
+CVE-2017-16554,4.6,priv,specific set of ioctl calls,CWE-264,6.4,,,,k7 antivirus premium,,257
+CVE-2017-11289,4.3,xss,,CWE-79,2.9,adobe,,,adobe connect,,258
+CVE-2017-0223,7.5,execcode overflow mem.corr.,,CWE-119,6.4,microsoft,,,chakra core,,259
+CVE-2017-7542,4.9,dos overflow,,CWE-190,6.9,,net/ipv6/,output_core.c,linux kernel,ip6_find_1stfragopt,260
+CVE-2017-2236,7.5,unknown,,CWE-798,6.4,toshiba,,,hem-gw26a,,261
+CVE-2017-0931,4.3,xss,,CWE-79,2.9,,,,html-janitor,,262
+CVE-2017-5410,7.5,overflow mem.corr.,,CWE-119,6.4,,,,thunderbird,,263
+CVE-2017-13985,4.0,dir.trav.,,CWE-22,2.9,hpe,,,bsm platform application performance management system health product,,264
+CVE-2017-0443,7.6,execcode,,CWE-264,10.0,qualcomm,,,android,,265
+CVE-2017-13167,7.2,unknown,,CWE-264,10.0,,,,android,,266
+CVE-2017-10030,5.8,unknown,,CWE-284,4.9,oracle,,,fusion middleware,,267
+CVE-2017-12647,4.3,xss,,CWE-79,2.9,liferay,,,liferay,,268
+CVE-2017-6297,4.3,unknown,,CWE-254,2.9,mikrotik,,,routeros,,269
+CVE-2017-13022,7.5,unknown,,CWE-119,6.4,,,print-ip.c,tcpdump,ip_printroute,270
+CVE-2017-0093,7.6,execcode overflow mem.corr.,,CWE-119,10.0,microsoft,,,edge,,271
+CVE-2017-17134,2.1,unknown,craft specific xml files,CWE-20,2.9,huawei,,,te60 v100r001c10,,272
+CVE-2017-12762,10.0,overflow,,CWE-119,10.0,,/drivers/isdn/i4l/,isdn_net.c,linux kernel,,273
+CVE-2017-5899,6.9,priv dir.trav.,,CWE-22,10.0,,,,s-mailx,,274
+CVE-2017-17129,6.8,dos,crafted file,CWE-476,6.4,,libavcodec/,vc1_mc.c,libav,ff_vc1_mc_4mv_chroma4,275
+CVE-2017-12258,4.3,xss,,CWE-79,2.9,cisco,,,unified communications manager,,276
+CVE-2017-10244,5.0,unknown,,CWE-284,2.9,oracle,,,e-business suite,,277
+CVE-2017-12993,7.5,unknown,,CWE-119,6.4,juniper,,print-juniper.c,tcpdump,,278
+CVE-2017-8510,9.3,execcode,,CWE-19,10.0,microsoft,,,office,,279
+CVE-2017-6289,7.2,overflow mem.corr.,,CWE-264,10.0,nvidia,,,trusted execution environment,,280
+CVE-2017-4935,6.9,dos execcode,jpeg2000 parser,CWE-787,10.0,vmware,,tpview.dll,workstation,,281
+CVE-2017-3748,7.2,unknown,nac_server component,CWE-264,10.0,lenovo,,,vibe mobile phones,,282
+CVE-2017-16613,7.5,bypass,,CWE-287,6.4,,,middleware.py,openstack swauth,,283
+CVE-2017-13068,5.0,sql info,,CWE-89,2.9,qnap,,,helpdesk application,,284
+CVE-2017-14857,4.3,dos,,CWE-416,2.9,,,image.cpp,exiv2,,285
+CVE-2017-12319,7.1,dos,,CWE-20,6.9,cisco,,,ios xe ,,286
+CVE-2017-16687,5.0,info,,CWE-200,2.9,sap,,,classic user self-service,,287
+CVE-2017-3096,10.0,execcode overflow mem.corr.,,CWE-119,10.0,adobe,,,digital editions,,288
+CVE-2017-14834,6.8,execcode,,CWE-416,6.4,,,,foxit reader,,289
+CVE-2017-14140,2.1,info,,CWE-200,2.9,,mm/,migrate.c,linux kernel,move_pages,290
+CVE-2017-3537,5.8,unknown,,CWE-284,4.9,oracle,,,utilities applications,,291
+CVE-2017-7797,5.0,unknown,,CWE-346,2.9,,,,firefox,,292
+CVE-2017-6756,6.8,csrf,,CWE-352,6.4,cisco,,,prime collaboration provisioning tool,,293
+CVE-2017-13148,7.1,dos,,CWE-20,6.9,,,,media framework,,294
+CVE-2017-9195,7.5,unknown,,CWE-119,6.4,,,input-tga.c,autotrace,readimage,295
+CVE-2017-9158,5.0,dos,libautotrace.a,CWE-787,2.9,,,input-pnm.c,autotrace,pnm_load_raw,296
+CVE-2017-11118,7.1,dos,crafted jpg file,CWE-399,6.9,,,exifimagefileread.cpp,openexif,exifimagefile::readimage,297
+CVE-2017-14362,6.8,csrf,,CWE-352,6.4,micro focus,,,project and portfolio management center,,298
+CVE-2017-0191,3.5,dos,,CWE-284,2.9,,,,windows 8.1,,299
+CVE-2017-15322,3.3,unknown,,CWE-20,2.9,huawei,,,bgo-l03c158b003custc158d001,,300
+CVE-2017-6033,6.8,unknown,,CWE-427,6.4,schneider electric,,,interactive graphical scada system,,301
+CVE-2017-16106,5.0,dir.trav.,,CWE-22,2.9,,,,tmock,,302
+CVE-2017-13765,5.0,unknown,ircomm dissector,CWE-119,2.9,wireshark,plugins/irda/,packet-ircomm.c,wireshark,,303
+CVE-2017-15785,6.8,dos execcode overflow,crafted .dwg file,CWE-119,6.4,xnview,,,xnview classic,,304
+CVE-2017-5215,7.5,execcode bypass,,CWE-20,6.4,joomla,,,b2j_contact,,305
+CVE-2017-7846,6.8,unknown,,CWE-74,6.4,,,,thunderbird,,306
+CVE-2017-10768,4.6,dos overflow,crafted .rle file,CWE-119,6.4,xnview,,,xnview classic,,307
+CVE-2017-0922,5.0,bypass,,CWE-285,2.9,,,,gitlab enterprise edition,,308
+CVE-2017-16681,4.3,xss,,CWE-79,2.9,sap,,,business intelligence promotion management application,,309
+CVE-2017-18271,7.1,dos,crafted miff image file,CWE-400,6.9,imagemagick,coders/,miff.c,imagemagick,readmiffimage,310
+CVE-2017-5602,4.3,unknown,,CWE-346,2.9,,,,xep-0280,,311
+CVE-2017-10987,5.0,dos,,CWE-119,2.9,,,,freeradius,fr_dhcp_decode_suboptions,312
+CVE-2017-10676,4.3,xss,,CWE-79,2.9,d-link,,form2userconfig.cgi,dir-600m,,313
+CVE-2017-2464,6.8,dos execcode overflow,crafted web site,CWE-119,6.4,apple,,,ios,,314
+CVE-2017-12893,7.5,unknown,,CWE-119,6.4,,smb/cifs,smbutil.c,tcpdump,name_len,315
+CVE-2017-16186,5.0,dir.trav.,,CWE-22,2.9,,,,360class.jansenhm,,316
+CVE-2017-9759,6.5,sql,,CWE-89,6.4,,admin/,index.php,zenbership,,317
+CVE-2017-2978,5.0,unknown,,CWE-119,2.9,adobe,,,digital editions,,318
+CVE-2017-6961,4.3,unknown,,CWE-20,2.9,,,,apng2gif,read_chunk,319
+CVE-2017-17325,4.3,info,,CWE-275,2.9,huawei,,,hicinema,,320
+CVE-2017-8344,4.3,dos,crafted file,CWE-119,2.9,imagemagick,,pcx.c,readpcximage,,321
+CVE-2017-10832,10.0,execcode,unspecified vectors,CWE-78,10.0,,,,scr02hd,,322
+CVE-2017-0458,7.6,execcode,,CWE-264,10.0,qualcomm,,,camera driver,,323
+CVE-2017-16550,4.6,priv,specific set of ioctl calls,CWE-264,6.4,,,,k7 antivirus premium,,324
+CVE-2017-14387,6.4,unknown,,CWE-254,4.9,emc,,,isilon onefs,,325
+CVE-2017-8103,4.3,xss,email mycode component,CWE-79,2.9,mybb,,,mybb,,326
+CVE-2017-11027,4.6,unknown,,CWE-20,6.4,,,,linux kernel,,327
+CVE-2017-16394,9.3,unknown,,CWE-125,10.0,adobe,,,reader,,328
+CVE-2017-17854,7.2,dos overflow mem.corr.,,CWE-190,10.0,,kernel/bpf/,verifier.c,linux kernel,,329
+CVE-2017-14865,4.3,dos overflow,,CWE-119,2.9,,,types.cpp,exiv2,exiv2::us2data,330
+CVE-2017-10023,4.0,unknown,flexcube private banking component,CWE-284,2.9,oracle,,,financial services applications,,331
+CVE-2017-14551,4.6,dos overflow,crafted .djvu file,CWE-119,6.4,,,,stdu viewer,,332
+CVE-2017-10029,5.8,unknown,bi publisher component,CWE-284,4.9,oracle,,,fusion middleware,,333
+CVE-2017-1000469,10.0,execcode,,CWE-20,10.0,,,,cobbler,,334
+CVE-2017-0145,9.3,execcode,,CWE-20,10.0,microsoft,,,windows 7,,335
+CVE-2017-3877,4.3,csrf,,CWE-352,2.9,cisco,,,unified communications manager,,336
+CVE-2017-3215,5.0,unknown,,CWE-254,2.9,,,,android,,337
+CVE-2017-9170,7.5,overflow,,CWE-119,6.4,,,input-bmp.c,autotrace,readimage,338
+CVE-2017-12477,10.0,execcode bypass,,CWE-287,10.0,unitrends,,,unitrends backup,,339
+CVE-2017-1533,4.3,xss,,CWE-79,2.9,ibm,,,security access manager appliance,,340
+CVE-2017-1553,3.5,xss,,CWE-79,2.9,ibm,,,infosphere biginsights,,341
+CVE-2017-7695,7.5,execcode bypass,unrestricted file upload,CWE-434,6.4,,,,bigtree cms,,342
+CVE-2017-8240,9.3,unknown,,CWE-119,10.0,,,,linux kernel,,343
+CVE-2017-13808,9.3,dos execcode overflow,crafted app,CWE-119,10.0,apple,,,macos,,344
+CVE-2017-6757,6.5,sql bypass,,CWE-89,6.4,cisco,,,unified communications manager,,345
+CVE-2017-3319,3.5,info,,CWE-200,2.9,oracle,,,mysql,,346
+CVE-2017-7694,6.5,execcode,,CWE-94,6.4,,symphony/content/,content.blueprintsdatasources.php,symphony cms,,347
+CVE-2017-7437,4.3,xss,,CWE-79,2.9,netiq,,,privileged account manager,,348
+CVE-2017-12985,7.5,unknown,,CWE-119,6.4,,,print-ip6.c,tcpdump,ip6_print,349
+CVE-2017-11664,4.3,dos,,CWE-125,2.9,,,internal_midi.c,wildmidi,_wm_setupmidievent,350
+CVE-2017-0900,5.0,dos,,CWE-20,2.9,,,,rubygems,,351
+CVE-2017-2943,9.3,execcode overflow mem.corr.,,CWE-119,10.0,adobe,,,reader,,352
+CVE-2017-14487,6.4,unknown,,CWE-310,4.9,,data/data/com.ohmibod.remote2/shared_prefs/,omb.xml,ios,,353
+CVE-2017-15216,4.3,xss,,CWE-79,2.9,,app/webroot/js/,misp.js,misp,,354
+CVE-2017-1000386,3.5,xss,,CWE-79,2.9,jenkins,,,active choices plugin,,355
+CVE-2017-6990,4.3,bypass,crafted app,CWE-284,2.9,apple,,,macos,,356
+CVE-2017-14453,,overflow,,,,insteon,,,hub 2245-222 devices,,357
+CVE-2017-1000452,6.0,unknown,,CWE-91,6.4,,,,samlify,,358
+CVE-2017-14425,2.1,unknown,,CWE-264,2.9,d-link,/var/etc/hnapasswd,,dir-850l,,359
+CVE-2017-3043,4.3,info,,CWE-200,2.9,adobe,,,reader,,360
+CVE-2017-9581,4.3,info,crafted certificate,CWE-295,2.9,,,,algonquin state bank mobile banking,,361
+CVE-2017-6869,10.0,execcode,crafted network packets,CWE-264,10.0,siemens,,,viewport,,362
+CVE-2017-6625,5.5,dos,,CWE-399,4.9,cisco,,,firepower threat defense,,363
+CVE-2017-2836,4.3,dos,,CWE-295,2.9,freerdp,,,freerdp,,364
+CVE-2017-1349,2.1,info,,CWE-200,2.9,ibm,,,sterling b2b integrator standard edition,,365
+CVE-2017-1320,3.5,xss,,CWE-79,2.9,ibm,,,tivoli federated identity manager,,366
+CVE-2017-18175,3.5,xss,,CWE-79,2.9,,,,progress sitefinity,,367
+CVE-2017-2320,10.0,dos info,,CWE-264,10.0,juniper,,,networks northstar controller application,,368
+CVE-2017-16653,,csrf,,,,symfony,,,symfony,,369
+CVE-2017-10997,6.8,overflow mem.corr.,,CWE-264,6.4,qualcomm,,,linux kernel,,370
+CVE-2017-1000073,7.5,execcode overflow,,CWE-119,6.4,creolabs,,,gravity,,371
+CVE-2017-2321,7.5,dos execcode,,CWE-264,6.4,juniper,,,networks northstar controller application,,372
+CVE-2017-8271,6.8,unknown,,CWE-787,6.4,qualcomm,,,linux kernel,,373
+CVE-2017-2100,6.8,unknown,unspecified vectors,CWE-20,6.4,,,,appgoat,,374
+CVE-2017-2784,6.8,execcode,,CWE-295,6.4,arm,,,mbed tls,,375
+CVE-2017-9187,7.5,unknown,,CWE-190,6.4,,,input-bmp.c,autotrace,,376
+CVE-2017-1452,7.2,unknown,,CWE-264,10.0,ibm,,,db2,,377
+CVE-2017-14612,4.3,info,crafted certificate,CWE-295,2.9,shpock,,,ios,,378
+CVE-2017-18049,4.3,unknown,,CWE-74,2.9,microsoft,,,silverstripe,,379
+CVE-2017-15186,4.3,dos,crafted avi file,CWE-415,2.9,ffmpeg,,,ffmpeg,,380
+CVE-2017-1374,4.0,info,,CWE-200,2.9,ibm,,,tririga application platform,,381
+CVE-2017-15427,,xss,,,,google,,,omnibox,,382
+CVE-2017-7906,6.8,unknown,,CWE-352,6.4,abb,,,ip gateway,,383
+CVE-2017-14149,5.0,unknown,,CWE-476,2.9,,,http.c,goahead,websdecodeurl,384
+CVE-2017-10330,6.4,unknown,,CWE-284,4.9,oracle,,,e-business suite,,385
+CVE-2017-17735,5.0,info,,CWE-200,2.9,,,,cms made simple,,386
+CVE-2017-2267,9.3,priv,trojan horse dll,CWE-426,10.0,,,,filecapsule deluxe portable,,387
+CVE-2017-9502,5.0,overflow,libcurl,CWE-119,2.9,,,,curl,,388
+CVE-2017-14764,6.5,execcode,,CWE-94,6.4, genixcms,,, genixcms,,389
+CVE-2017-17782,6.8,unknown,,CWE-119,6.4,,coders/,png.c,graphicsmagick,readonejngimage,390
+CVE-2017-0369,4.0,unknown,,CWE-264,2.9,,,,mediawiki,,391
+CVE-2017-1000500,5.0,unknown,,CWE-74,2.9,,,,keycloak,,392
+CVE-2017-17809,6.8,unknown,,CWE-426,6.4,,,,macos,,393
+CVE-2017-5231,5.1,dir.trav.,,CWE-22,6.4,rapid7,,,metasploit,commanddispatcher.cmd_download,394
+CVE-2017-1002000,7.5,unknown,,CWE-434,6.4,wordpress,./mobile-friendly-app-builder-by-easytouch/server/,images.php,mobile-friendly-app-builder-by-easytouch,,395
+CVE-2017-13143,5.0,info,,CWE-200,2.9,imagemagick,coders/,mat.c,imagemagick,readmatimage,396
+CVE-2017-9920,4.4,dos execcode overflow,,CWE-119,6.4,irfanview,,,irfanview,,397
+CVE-2017-5869,6.5,execcode dir.trav.,,CWE-22,6.4,nuxeo,,,nuxeo,,398
+CVE-2017-1245,3.5,xss,,CWE-79,2.9,ibm,,,rational software architect design manager,,399
+CVE-2017-10789,4.3,unknown,,CWE-254,2.9,,,,mysql,,400
+CVE-2017-2923,6.8,execcode overflow mem.corr.,,CWE-119,6.4,,,,freexl,read_biff_next_record,401
+CVE-2017-14895,7.2,unknown,,CWE-264,10.0,,,,linux kernel,,402
+CVE-2017-15856,4.4,unknown,race condition,CWE-415,6.4,,,,linux kernel,,403
+CVE-2017-8716,4.6,bypass,,CWE-254,6.4,microsoft,,,windows 10,,404
+CVE-2017-1366,,unknown,,,,ibm,,,security identity governance virtual appliance,,405
+CVE-2017-15780,6.8,dos overflow,crafted .dwg file,CWE-119,6.4,xnview,,,xnview classic,,406
+CVE-2017-2214,9.3,execcode,,CWE-426,10.0,,,,appcheck,,407
+CVE-2017-12850,4.0,unknown,,CWE-640,2.9,,,,kanboard,,408
+CVE-2017-0441,7.6,execcode,,CWE-264,10.0,qualcomm,,,android,,409
+CVE-2017-2481,6.8,dos execcode overflow,crafted web site,CWE-119,6.4,apple,,,ios,,410
+CVE-2017-12123,3.3,unknown,,CWE-255,2.9,moxa,,,edr-810,,411
+CVE-2017-2167,6.8,execcode,specially crafted executable file,CWE-426,6.4,,,,primedrive desktop application,,412
+CVE-2017-6633,5.0,dos overflow,,CWE-119,2.9,cisco,,,ucs c-series rack servers,,413
+CVE-2017-10748,4.6,dos execcode overflow,crafted .rle file,CWE-119,6.4,xnview,,,xnview classic,,414
+CVE-2017-11366,7.5,execcode,,CWE-77,6.4,codiad,components/filemanager/,class.filemanager.php,codiad,,415
+CVE-2017-8686,7.5,execcode overflow mem.corr.,,CWE-119,6.4,,,,windows server 2012,,416
+CVE-2017-13789,4.3,unknown,crafted web site,CWE-20,2.9,apple,,,safari,,417
+CVE-2017-13862,9.3,dos execcode overflow,crafted app,CWE-119,10.0,apple,,,macos,,418
+CVE-2017-7591,4.3,xss,,CWE-79,2.9,,managed/user/,,openidm,,419
+CVE-2017-17469,6.1,dos overflow,,CWE-119,8.5,tg soft,,,vir.it explorer lite,,420
+CVE-2017-14506,3.5,xss,crafted gem.homepage value,CWE-79,2.9,,,,geminabox,,421
+CVE-2017-0873,7.1,dos,,CWE-20,6.9,,,,media framework,,422
+CVE-2017-5521,4.3,info,simple crafted requests,CWE-200,2.9,netgear,,,r6700,,423
+CVE-2017-9764,4.3,xss,,CWE-79,2.9,,include/stat/,stat.php,metinfo,,424
+CVE-2017-1000147,6.0,csrf,,CWE-352,6.4,,,,mahara,,425
+CVE-2017-7535,,xss,,,,,,,foreman,,426
+CVE-2017-0088,9.3,execcode overflow,,CWE-119,10.0,microsoft,,,windows 7,,427
+CVE-2017-0470,9.3,execcode overflow mem.corr.,,CWE-119,10.0,,,,mediaserver,,428
+CVE-2017-11285,4.3,xss,,CWE-79,2.9,adobe,,,coldfusion,,429
+CVE-2017-13062,4.3,dos,crafted file,CWE-119,2.9,imagemagick,coders/,meta.c,imagemagick,,430
+CVE-2017-8489,1.9,info,specially crafted application,CWE-200,2.9,microsoft,,,windows 8.1,,431
+CVE-2017-9727,6.8,dos,crafted document,CWE-119,6.4,artifex,base/,gxttfb.c,ghostscript ghostxps,gx_ttfreader__read,432
+CVE-2017-18219,4.3,dos,,CWE-399,2.9,,coders/,png.c,graphicsmagick,readonepngimage,433
+CVE-2017-0162,7.4,execcode,,CWE-20,10.0,,,,windows server 2012,,434
+CVE-2017-0058,1.9,info,,CWE-200,2.9,microsoft,,,win32k,,435
+CVE-2017-3396,5.8,unknown,,CWE-284,4.9,oracle,,,e-business suite,,436
+CVE-2017-8720,7.2,unknown,windows graphics component,CWE-264,10.0,microsoft,,,windows 7,,437
+CVE-2017-6157,6.8,execcode,,CWE-77,6.4,f5,,,afm,,438
+CVE-2017-3308,4.0,unknown,,CWE-284,2.9,oracle,,,mysql,,439
+CVE-2017-0909,7.5,bypass,,CWE-254,6.4,,,,private_address_check ruby,,440
+CVE-2017-16056,5.0,info,,CWE-200,2.9,,,,mssql,,441
+CVE-2017-16014,5.0,dos,,CWE-388,2.9,,,,http-proxy,,442
+CVE-2017-11439,3.5,xss,,CWE-79,2.9,sitecore,shell/applications/tools/run,,sitecore,,443
+CVE-2017-2789,7.5,execcode overflow,,CWE-119,6.4,justsystems,,,ichitaro office,,444
+CVE-2017-3156,5.0,unknown,,CWE-361,2.9,apache,,,cxf,,445
+CVE-2017-17280,2.9,info,,CWE-200,2.9,huawei,,,lon-al00bc00,,446
+CVE-2017-16056,5.0,info,,CWE-200,2.9,,,,mssql,,447
+CVE-2017-16014,5.0,dos,,CWE-388,2.9,,,,http-proxy,,448
+CVE-2017-11439,3.5,xss,,CWE-79,2.9,sitecore,shell/applications/tools/run,,sitecore,,449
+CVE-2017-2789,7.5,execcode overflow,,CWE-119,6.4,justsystems,,,ichitaro office,,450
+CVE-2017-3156,5.0,unknown,,CWE-361,2.9,apache,,,cxf,,451
+CVE-2017-17280,2.9,info,,CWE-200,2.9,huawei,,,lon-al00bc00,,452
